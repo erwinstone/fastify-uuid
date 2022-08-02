@@ -1,0 +1,31 @@
+{
+	"name": "fastify-uuid",
+	"version": "1.0.0",
+	"description": "A module for Fastify to Generate RFC-compliant UUIDs",
+	"main": "uuid.js",
+	"types": "uuid.d.ts",
+	"repository": "git@github.com:erwinstone/fastify-uuid.git",
+	"author": "Erwin Stone <erwinstone@pm.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/erwinstone/fastify-uuid/issues"
+	},
+	"homepage": "https://github.com/erwinstone/fastify-uuid#readme",
+	"keywords": [
+		"fastify",
+		"uuid",
+		"fastify-uuid",
+		"fastify uuid"
+	],
+	"dependencies": {
+		"@types/uuid": "^8.3.4",
+		"fastify-plugin": "^4.0.0",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"fastify": "^4.3.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
