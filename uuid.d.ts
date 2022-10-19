@@ -3,6 +3,8 @@ import uuid from 'uuid'
 
 declare const fastifyUUID: FastifyPluginCallback
 
+export { uuid }
+
 export default fastifyUUID
 
 declare module 'fastify' {
